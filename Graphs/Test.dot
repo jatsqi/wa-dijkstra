@@ -1,0 +1,10 @@
+digraph G {
+	A -> B [label="3"]
+	A -> C [label="5"]
+	C -> F [label = "6"]
+	F -> G [label="5"]
+	B -> D [label="5"]
+	B -> E [label = "3"]
+	D -> G [label = "4"]
+	E -> G [label = "2"]
+}

@@ -1,0 +1,497 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7440 64-bit) (preloaded format=pdflatex 2020.6.11)  10 JUL 2020 15:19
+entering extended mode
+**./WA.tex
+(WA.tex
+LaTeX2e <2020-02-02> patch level 5
+L3 programming layer <2020-06-03>
+("C:\Users\johan\AppData\Local\Programs\MiKTeX 2.9\tex/latex/koma-script\scrrep
+rt.cls"
+Document Class: scrreprt 2020/04/19 v3.30 KOMA-Script document class (report)
+
+("C:\Users\johan\AppData\Local\Programs\MiKTeX 2.9\tex/latex/koma-script\scrkba
+se.sty"
+Package: scrkbase 2020/04/19 v3.30 KOMA-Script package (KOMA-Script-dependent b
+asics and keyval usage)
+
+("C:\Users\johan\AppData\Local\Programs\MiKTeX 2.9\tex/latex/koma-script\scrbas
+e.sty"
+Package: scrbase 2020/04/19 v3.30 KOMA-Script package (KOMA-Script-independent 
+basics and keyval usage)
+
+("C:\Users\johan\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics\keyval.st
+y"
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks15
+)
+("C:\Users\johan\AppData\Local\Programs\MiKTeX 2.9\tex/latex/koma-script\scrlfi
+le.sty"
+Package: scrlfile 2020/04/19 v3.30 KOMA-Script package (loading files)
+)))
+("C:\Users\johan\AppData\Local\Programs\MiKTeX 2.9\tex/latex/koma-script\tocbas
+ic.sty"
+Package: tocbasic 2020/04/19 v3.30 KOMA-Script package (handling toc-files)
+\scr@dte@tocline@numberwidth=\skip47
+\scr@dte@tocline@numbox=\box45
+)
+Package tocbasic Info: babel extension for `toc' omitted
+(tocbasic)             because of missing \bbl@set@language on input line 137.
+Package scrreprt Info: You've used standard option `11pt'.
+(scrreprt)             This is correct!
+(scrreprt)             Internally I'm using `fontsize=11pt'.
+(scrreprt)             If you'd like to set the option with \KOMAoptions,
+(scrreprt)             you'd have to use `fontsize=11pt' there
+(scrreprt)             instead of `11pt', too.
+Class scrreprt Info: File `scrsize11pt.clo' used to setup font sizes on input l
+ine 2424.
+
+("C:\Users\johan\AppData\Local\Programs\MiKTeX 2.9\tex/latex/koma-script\scrsiz
+e11pt.clo"
+File: scrsize11pt.clo 2020/04/19 v3.30 KOMA-Script font size class option (11pt
+)
+)
+("C:\Users\johan\AppData\Local\Programs\MiKTeX 2.9\tex/latex/koma-script\typear
+ea.sty"
+Package: typearea 2020/04/19 v3.30 KOMA-Script package (type area)
+\ta@bcor=\skip48
+\ta@div=\count167
+\ta@hblk=\skip49
+\ta@vblk=\skip50
+\ta@temp=\skip51
+\footheight=\skip52
+Package typearea Info: These are the values describing the layout:
+(typearea)             DIV  = 10
+(typearea)             BCOR = 0.0pt
+(typearea)             \paperwidth      = 597.50793pt
+(typearea)              \textwidth      = 418.25555pt
+(typearea)              DIV departure   = -6%
+(typearea)              \evensidemargin = 17.3562pt
+(typearea)              \oddsidemargin  = 17.3562pt
+(typearea)             \paperheight     = 845.04694pt
+(typearea)              \textheight     = 595.80026pt
+(typearea)              \topmargin      = -25.16531pt
+(typearea)              \headheight     = 17.0pt
+(typearea)              \headsep        = 20.40001pt
+(typearea)              \topskip        = 11.0pt
+(typearea)              \footskip       = 47.6pt
+(typearea)              \baselineskip   = 13.6pt
+(typearea)              on input line 1738.
+)
+\c@part=\count168
+\c@chapter=\count169
+\c@section=\count170
+\c@subsection=\count171
+\c@subsubsection=\count172
+\c@paragraph=\count173
+\c@subparagraph=\count174
+\scr@dte@chapter@maxnumwidth=\skip53
+Class scrreprt Info: using compatibility default `afterindent=bysign'
+(scrreprt)           for `\chapter on input line 5588.
+\scr@dte@section@maxnumwidth=\skip54
+Class scrreprt Info: using compatibility default `runin=bysign'
+(scrreprt)           for `\section on input line 5598.
+Class scrreprt Info: using compatibility default `afterindent=bysign'
+(scrreprt)           for `\section on input line 5598.
+\scr@dte@part@maxnumwidth=\skip55
+Class scrreprt Info: using compatibility default `afterindent=true'
+(scrreprt)           for `\part on input line 5607.
+\scr@dte@subsection@maxnumwidth=\skip56
+Class scrreprt Info: using compatibility default `runin=bysign'
+(scrreprt)           for `\subsection on input line 5617.
+Class scrreprt Info: using compatibility default `afterindent=bysign'
+(scrreprt)           for `\subsection on input line 5617.
+\scr@dte@subsubsection@maxnumwidth=\skip57
+Class scrreprt Info: using compatibility default `runin=bysign'
+(scrreprt)           for `\subsubsection on input line 5627.
+Class scrreprt Info: using compatibility default `afterindent=bysign'
+(scrreprt)           for `\subsubsection on input line 5627.
+\scr@dte@paragraph@maxnumwidth=\skip58
+Class scrreprt Info: using compatibility default `runin=bysign'
+(scrreprt)           for `\paragraph on input line 5637.
+Class scrreprt Info: using compatibility default `afterindent=bysign'
+(scrreprt)           for `\paragraph on input line 5637.
+\scr@dte@subparagraph@maxnumwidth=\skip59
+Class scrreprt Info: using compatibility default `runin=bysign'
+(scrreprt)           for `\subparagraph on input line 5647.
+Class scrreprt Info: using compatibility default `afterindent=bysign'
+(scrreprt)           for `\subparagraph on input line 5647.
+\abovecaptionskip=\skip60
+\belowcaptionskip=\skip61
+\c@pti@nb@sid@b@x=\box46
+Package tocbasic Info: babel extension for `lof' omitted
+(tocbasic)             because of missing \bbl@set@language on input line 6883.
+
+\scr@dte@figure@maxnumwidth=\skip62
+\c@figure=\count175
+Package tocbasic Info: babel extension for `lot' omitted
+(tocbasic)             because of missing \bbl@set@language on input line 6900.
+
+\scr@dte@table@maxnumwidth=\skip63
+\c@table=\count176
+Class scrreprt Info: Redefining `\numberline' on input line 7069.
+\bibindent=\dimen134
+)
+("C:\Users\johan\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics\graphicx.
+sty"
+Package: graphicx 2019/11/30 v1.2a Enhanced LaTeX Graphics (DPC,SPQR)
+
+("C:\Users\johan\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics\graphics.
+sty"
+Package: graphics 2019/11/30 v1.4a Standard LaTeX Graphics (DPC,SPQR)
+
+("C:\Users\johan\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics\trig.sty"
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+("C:\Users\johan\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics-cfg\graph
+ics.cfg"
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 105.
+
+("C:\Users\johan\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics-def\pdfte
+x.def"
+File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen135
+\Gin@req@width=\dimen136
+)
+("C:\Users\johan\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\inputenc.sty"
+Package: inputenc 2018/08/11 v1.3c Input encoding file
+\inpenc@prehook=\toks16
+\inpenc@posthook=\toks17
+)
+("C:\Users\johan\AppData\Local\Programs\MiKTeX 2.9\tex/latex/setspace\setspace.
+sty"
+Package: setspace 2011/12/19 v6.7a set line spacing
+)
+("C:\Users\johan\AppData\Local\Programs\MiKTeX 2.9\tex/generic/babel\babel.sty"
+Package: babel 2020/05/13 3.44 The Babel package
+("C:\Users\johan\AppData\Local\Programs\MiKTeX 2.9\tex/generic/babel\babel.def"
+File: babel.def 2020/05/13 3.44 Babel common definitions
+\babel@savecnt=\count177
+\U@D=\dimen137
+\l@babelnohyphens=\language79
+
+("C:\Users\johan\AppData\Local\Programs\MiKTeX 2.9\tex/generic/babel\txtbabel.d
+ef")
+\bbl@readstream=\read2
+)
+\bbl@dirlevel=\count178
+
+*************************************
+* Local config file bblopts.cfg used
+*
+("C:\Users\johan\AppData\Local\Programs\MiKTeX 2.9\tex/latex/arabi\bblopts.cfg"
+File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of
+ babel
+)
+("C:\Users\johan\AppData\Local\Programs\MiKTeX 2.9\tex/latex/babel-german\ngerm
+an.ldf"
+Language: ngerman 2018/12/08 v2.11 German support for babel (post-1996 orthogra
+phy)
+
+("C:\Users\johan\AppData\Local\Programs\MiKTeX 2.9\tex/latex/babel-german\ngerm
+anb.ldf"
+Language: ngermanb 2018/12/08 v2.11 German support for babel (post-1996 orthogr
+aphy)
+Package babel Info: Making " an active character on input line 121.
+)))
+("C:\Users\johan\AppData\Local\Programs\MiKTeX 2.9\tex/latex/csquotes\csquotes.
+sty"
+Package: csquotes 2019-12-06 v5.2j context-sensitive quotations (JAW)
+
+("C:\Users\johan\AppData\Local\Programs\MiKTeX 2.9\tex/latex/etoolbox\etoolbox.
+sty"
+Package: etoolbox 2019/09/21 v2.5h e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count179
+)
+\csq@reset=\count180
+\csq@gtype=\count181
+\csq@glevel=\count182
+\csq@qlevel=\count183
+\csq@maxlvl=\count184
+\csq@tshold=\count185
+\csq@ltx@everypar=\toks18
+
+("C:\Users\johan\AppData\Local\Programs\MiKTeX 2.9\tex/latex/csquotes\csquotes.
+def"
+File: csquotes.def 2019-12-06 v5.2j csquotes generic definitions (JAW)
+)
+Package csquotes Info: Trying to load configuration file 'csquotes.cfg'...
+Package csquotes Info: ... configuration file loaded successfully.
+
+("C:\Users\johan\AppData\Local\Programs\MiKTeX 2.9\tex/latex/csquotes\csquotes.
+cfg"
+File: csquotes.cfg 
+)
+Package csquotes Info: Option 'babel' depreciated.
+(csquotes)             Using 'autostyle'.
+Package csquotes Info: Enabling multilingual quotes.
+Package csquotes Info: Redefining alias 'german' -> 'german/quotes'.
+)
+("C:\Users\johan\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsmath\amsmath.st
+y"
+Package: amsmath 2020/01/20 v2.17e AMS math features
+\@mathmargin=\skip64
+
+For additional information on amsmath, use the `?' option.
+
+("C:\Users\johan\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsmath\amstext.st
+y"
+Package: amstext 2000/06/29 v2.01 AMS text
+
+("C:\Users\johan\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsmath\amsgen.sty
+"
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks19
+\ex@=\dimen138
+))
+("C:\Users\johan\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsmath\amsbsy.sty
+"
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen139
+)
+("C:\Users\johan\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsmath\amsopn.sty
+"
+Package: amsopn 2016/03/08 v2.02 operator names
+)
+\inf@bad=\count186
+LaTeX Info: Redefining \frac on input line 227.
+\uproot@=\count187
+\leftroot@=\count188
+LaTeX Info: Redefining \overline on input line 389.
+\classnum@=\count189
+\DOTSCASE@=\count190
+LaTeX Info: Redefining \ldots on input line 486.
+LaTeX Info: Redefining \dots on input line 489.
+LaTeX Info: Redefining \cdots on input line 610.
+\Mathstrutbox@=\box47
+\strutbox@=\box48
+\big@size=\dimen140
+LaTeX Font Info:    Redeclaring font encoding OML on input line 733.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 734.
+\macc@depth=\count191
+\c@MaxMatrixCols=\count192
+\dotsspace@=\muskip16
+\c@parentequation=\count193
+\dspbrk@lvl=\count194
+\tag@help=\toks20
+\row@=\count195
+\column@=\count196
+\maxfields@=\count197
+\andhelp@=\toks21
+\eqnshift@=\dimen141
+\alignsep@=\dimen142
+\tagshift@=\dimen143
+\tagwidth@=\dimen144
+\totwidth@=\dimen145
+\lineht@=\dimen146
+\@envbody=\toks22
+\multlinegap=\skip65
+\multlinetaggap=\skip66
+\mathdisplay@stack=\toks23
+LaTeX Info: Redefining \[ on input line 2859.
+LaTeX Info: Redefining \] on input line 2860.
+)
+Package csquotes Info: Checking for multilingual support...
+Package csquotes Info: ... found 'babel' package.
+
+("C:\Users\johan\AppData\Local\Programs\MiKTeX 2.9\tex/latex/l3backend\l3backen
+d-pdfmode.def"
+File: l3backend-pdfmode.def 2020-06-03 L3 backend support: PDF mode
+\l__kernel_color_stack_int=\count198
+\l__pdf_internal_box=\box49
+) (WA.aux)
+\openout1 = `WA.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+
+("C:\Users\johan\AppData\Local\Programs\MiKTeX 2.9\tex/context/base/mkii\supp-p
+df.mkii"
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count199
+\scratchdimen=\dimen147
+\scratchbox=\box50
+\nofMPsegments=\count266
+\nofMParguments=\count267
+\everyMPshowfont=\toks24
+\MPscratchCnt=\count268
+\MPscratchDim=\dimen148
+\MPnumerator=\count269
+\makeMPintoPDFobject=\count270
+\everyMPtoPDFconversion=\toks25
+)
+("C:\Users\johan\AppData\Local\Programs\MiKTeX 2.9\tex/latex/epstopdf-pkg\epsto
+pdf-base.sty"
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+
+("C:\Users\johan\AppData\Local\Programs\MiKTeX 2.9\tex/generic/infwarerr\infwar
+err.sty"
+Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
+)
+("C:\Users\johan\AppData\Local\Programs\MiKTeX 2.9\tex/latex/grfext\grfext.sty"
+Package: grfext 2019/12/03 v1.3 Manage graphics extensions (HO)
+
+("C:\Users\johan\AppData\Local\Programs\MiKTeX 2.9\tex/generic/kvdefinekeys\kvd
+efinekeys.sty"
+Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
+))
+("C:\Users\johan\AppData\Local\Programs\MiKTeX 2.9\tex/latex/kvoptions\kvoption
+s.sty"
+Package: kvoptions 2019/11/29 v3.13 Key value format for package options (HO)
+
+("C:\Users\johan\AppData\Local\Programs\MiKTeX 2.9\tex/generic/ltxcmds\ltxcmds.
+sty"
+Package: ltxcmds 2019/12/15 v1.24 LaTeX kernel commands for general use (HO)
+)
+("C:\Users\johan\AppData\Local\Programs\MiKTeX 2.9\tex/generic/kvsetkeys\kvsetk
+eys.sty"
+Package: kvsetkeys 2019/12/15 v1.18 Key value parser (HO)
+))
+("C:\Users\johan\AppData\Local\Programs\MiKTeX 2.9\tex/latex/pdftexcmds\pdftexc
+mds.sty"
+Package: pdftexcmds 2020-06-04 v0.32 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+("C:\Users\johan\AppData\Local\Programs\MiKTeX 2.9\tex/generic/iftex\iftex.sty"
+Package: iftex 2020/03/06 v1.0d TeX engine tests
+)
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+85.
+Package grfext Info: Graphics extension search list:
+(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 504.
+)
+<Bilder/Arrow.png, id=1, 602.25pt x 602.25pt>
+File: Bilder/Arrow.png Graphic file (type png)
+<use Bilder/Arrow.png>
+Package pdftex.def Info: Bilder/Arrow.png  used on input line 18.
+(pdftex.def)             Requested size: 138.02509pt x 138.02753pt.
+ [1
+
+
+
+{C:/Users/johan/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map} <./Bilder/Ar
+row.png>] (WA.toc)
+\tf@toc=\write3
+\openout3 = `WA.toc'.
+
+ [2
+
+]
+chapter 1.
+
+Underfull \hbox (badness 10000) in paragraph at lines 40--47
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 50--55
+
+ []
+
+[3
+
+]
+chapter 2.
+<Graphs/hello.png, id=20, 472.76625pt x 203.76125pt>
+File: Graphs/hello.png Graphic file (type png)
+<use Graphs/hello.png>
+Package pdftex.def Info: Graphs/hello.png  used on input line 64.
+(pdftex.def)             Requested size: 292.7776pt x 126.18764pt.
+[4
+
+ <./Graphs/hello.png>]
+<Graphs/pq_objects.png, id=26, 557.08125pt x 104.39pt>
+File: Graphs/pq_objects.png Graphic file (type png)
+<use Graphs/pq_objects.png>
+Package pdftex.def Info: Graphs/pq_objects.png  used on input line 78.
+(pdftex.def)             Requested size: 334.60571pt x 62.70137pt.
+
+Overfull \hbox (1.37328pt too wide) in paragraph at lines 82--83
+[]\OT1/cmr/m/n/10.95 W[]urde man die-se 3 Ob-jek-te nun nach-ein-an-der in ei-n
+e Prio-rit[]atswarteschlange einf[]ugen,
+ []
+
+<Graphs/pq_sorted_distance.png, id=27, 557.08125pt x 104.39pt>
+File: Graphs/pq_sorted_distance.png Graphic file (type png)
+<use Graphs/pq_sorted_distance.png>
+Package pdftex.def Info: Graphs/pq_sorted_distance.png  used on input line 86.
+(pdftex.def)             Requested size: 334.60571pt x 62.70137pt.
+[5 <./Graphs/pq_objects.png> <./Graphs/pq_sorted_distance.png>]
+chapter 3.
+[6
+
+] [7]
+<Graphs/Example1.png, id=45, 472.76625pt x 203.76125pt>
+File: Graphs/Example1.png Graphic file (type png)
+<use Graphs/Example1.png>
+Package pdftex.def Info: Graphs/Example1.png  used on input line 125.
+(pdftex.def)             Requested size: 334.60571pt x 144.21756pt.
+<Graphs/Example1_PQ.png, id=46, 179.67125pt x 73.27374pt>
+File: Graphs/Example1_PQ.png Graphic file (type png)
+<use Graphs/Example1_PQ.png>
+Package pdftex.def Info: Graphs/Example1_PQ.png  used on input line 130.
+(pdftex.def)             Requested size: 125.47794pt x 51.17386pt.
+<Graphs/Example2.png, id=47, 472.76625pt x 203.76125pt>
+File: Graphs/Example2.png Graphic file (type png)
+<use Graphs/Example2.png>
+Package pdftex.def Info: Graphs/Example2.png  used on input line 143.
+(pdftex.def)             Requested size: 334.60571pt x 144.21756pt.
+<Graphs/Example2_PQ.png, id=48, 276.03125pt x 73.27374pt>
+File: Graphs/Example2_PQ.png Graphic file (type png)
+<use Graphs/Example2_PQ.png>
+Package pdftex.def Info: Graphs/Example2_PQ.png  used on input line 148.
+(pdftex.def)             Requested size: 188.21371pt x 49.96411pt.
+ [8 <./Graphs/Example1.png> <./Graphs/Example1_PQ.png>] [9 <./Graphs/Example2.p
+ng> <./Graphs/Example2_PQ.png>]
+chapter 4.
+[10
+
+] (WA.aux) ) 
+Here is how much of TeX's memory you used:
+ 6785 strings out of 480797
+ 123354 string characters out of 2895575
+ 503107 words of memory out of 3000000
+ 22705 multiletter control sequences out of 15000+200000
+ 540338 words of font info for 51 fonts, out of 3000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 43i,8n,72p,10099b,329s stack positions out of 5000i,500n,10000p,200000b,50000s
+<C:/Users/johan/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/publi
+c/amsfonts/cm/cmbx10.pfb><C:/Users/johan/AppData/Local/Programs/MiKTeX 2.9/font
+s/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/johan/AppData/Local/Programs/Mi
+KTeX 2.9/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Users/johan/AppData/Loc
+al/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/joha
+n/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C
+:/Users/johan/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/
+cmmi8.pfb><C:/Users/johan/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/
+amsfonts/cm/cmr10.pfb><C:/Users/johan/AppData/Local/Programs/MiKTeX 2.9/fonts/t
+ype1/public/amsfonts/cm/cmr12.pfb><C:/Users/johan/AppData/Local/Programs/MiKTeX
+ 2.9/fonts/type1/public/amsfonts/cm/cmssbx10.pfb><C:/Users/johan/AppData/Local/
+Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/johan/A
+ppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/
+Users/johan/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cm
+ti12.pfb>
+Output written on WA.pdf (10 pages, 224934 bytes).
+PDF statistics:
+ 100 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 500000)
+ 41 words of extra memory for PDF output out of 10000 (max. 10000000)
+

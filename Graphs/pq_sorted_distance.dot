@@ -1,0 +1,6 @@
+digraph structs {
+    node [shape=record];
+	MU_STU [label="{München - Stuttgart|Entfernung: 230km|Dauer: 2,5h}"]
+	B_HAM [label="{Berlin - Hamburg|Entfernung: 290km|Dauer: 3h}"]
+	L_KA [label="{Leipzig - Karlsruhe|Entfernung: 500km|Dauer: 5h}"]
+}

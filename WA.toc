@@ -1,0 +1,16 @@
+\babel@toc {ngerman}{}
+\contentsline {chapter}{\numberline {1}Einleitung}{3}%
+\contentsline {section}{\numberline {1.1}Motivation}{3}%
+\contentsline {section}{\numberline {1.2}Vorwort}{3}%
+\contentsline {chapter}{\numberline {2}Grundlagen}{4}%
+\contentsline {section}{\numberline {2.1}Graphen}{4}%
+\contentsline {section}{\numberline {2.2}Prioritätenliste (priority queue)}{5}%
+\contentsline {chapter}{\numberline {3}Algorithmen}{6}%
+\contentsline {section}{\numberline {3.1}Dijkstra}{6}%
+\contentsline {subsection}{\numberline {3.1.1}Allgemeine Funktionsweise}{6}%
+\contentsline {subsection}{\numberline {3.1.2}Beispiel}{8}%
+\contentsline {subsubsection}{\nonumberline 1. Schritt}{8}%
+\contentsline {subsubsection}{\nonumberline 2. Schritt}{9}%
+\contentsline {section}{\numberline {3.2}A*}{9}%
+\contentsline {subsection}{\numberline {3.2.1}Funktionsweise}{9}%
+\contentsline {chapter}{\numberline {4}Mögliche Verbesserungen}{10}%

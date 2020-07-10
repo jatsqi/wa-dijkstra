@@ -1,0 +1,10 @@
+digraph {
+	node [shape=record];
+	structA [label="{A|{|-}}}"];
+	structB [label="{B|ABC}"];
+	structC [label="{ABC|ABC}"];
+	structD [label="{ABC|ABC}"];
+	structE [label="{ABC|ABC}"];
+	structF [label="{ABC|ABC}"];
+	structG [label="{ABC|ABC}"];
+}

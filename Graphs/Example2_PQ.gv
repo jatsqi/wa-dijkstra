@@ -1,0 +1,6 @@
+digraph {
+	node [shape=record];
+	structC [label="{C|{5|A}}}"];
+	structE [label="{E|{6|B}}"];
+	structD [label="{D|{8|B}}"];
+}

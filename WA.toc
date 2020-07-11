@@ -11,6 +11,9 @@
 \contentsline {subsection}{\numberline {3.1.2}Beispiel}{8}%
 \contentsline {subsubsection}{\nonumberline 1. Schritt}{8}%
 \contentsline {subsubsection}{\nonumberline 2. Schritt}{9}%
-\contentsline {section}{\numberline {3.2}A*}{9}%
-\contentsline {subsection}{\numberline {3.2.1}Funktionsweise}{9}%
-\contentsline {chapter}{\numberline {4}Mögliche Verbesserungen}{10}%
+\contentsline {subsubsection}{\nonumberline 3. Schritt}{10}%
+\contentsline {subsubsection}{\nonumberline 4. Schritt}{11}%
+\contentsline {section}{\numberline {3.2}A*}{13}%
+\contentsline {subsection}{\numberline {3.2.1}Problemstellung}{13}%
+\contentsline {subsection}{\numberline {3.2.2}Funktionsweise}{13}%
+\contentsline {chapter}{\numberline {4}Mögliche Verbesserungen}{14}%

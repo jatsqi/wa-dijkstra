@@ -7,6 +7,7 @@
 \usepackage[utf8]{inputenc}
 \usepackage[babel, german=quotes]{csquotes}
 \usepackage{amsmath}
+\usepackage{placeins}
 
 \title{Wie Kartendienste ans Ziel finden}
 \date{06. Juli 2020}
@@ -125,7 +126,7 @@ Auf den folgenden Seiten möchte ich mich auf zwei sehr bekannte Algorithmen bes
 				\includegraphics[width=0.8\textwidth]{Graphs/Example1}
 				\caption{Objekte mit Fahrzeit und Entfernung zwischen zwei Städten}
 			\end{figure}
-			\begin{figure}[ht]
+			\begin{figure}[ht!]
 				\centering
 				\includegraphics[width=0.3\textwidth]{Graphs/Example1_PQ}
 				\caption{Prioritätenliste nach Schritt 1}
@@ -133,10 +134,11 @@ Auf den folgenden Seiten möchte ich mich auf zwei sehr bekannte Algorithmen bes
 			Der Knoten A ist in diesem Fall der Startknoten und hat die Nachbarknoten B und C.
 			Für beide Nachbarn wird nun die Entfernung berechnet, ausgehend von A.
 			\begin{align*}
-					Enterfnung_B &= Enterfnung_A + 3 = 0 + 3 = 3\\
+					Entfernung_B &= Entfernung_A + 3 = 0 + 3 = 3\\
 					Entfernung_C &= Entfernung_A + 5 = 0 + 5 = 5
 			\end{align*}
 			
+			\newpage
 			\subsubsection{2. Schritt}
 			\begin{figure}[ht]
 				\centering
@@ -148,17 +150,83 @@ Auf den folgenden Seiten möchte ich mich auf zwei sehr bekannte Algorithmen bes
 				\includegraphics[width=0.45\textwidth]{Graphs/Example2_PQ}
 				\caption{Prioritätenliste nach Schritt 2}
 			\end{figure}
-			Der Knoten A ist in diesem Fall der Startknoten und hat die Nachbarknoten B und C.
-			Für beide Nachbarn wird nun die Entfernung berechnet, ausgehend von A.
+			\FloatBarrier
+			Da der Knoten B in der Prioritätenliste nach Schritt 1. der erste war, wurden die Schritte nun bei diesem wiederholt.
 			\begin{align*}
-			Enterfnung_B &= Enterfnung_A + 3 = 0 + 3 = 3\\
-			Entfernung_C &= Entfernung_A + 5 = 0 + 5 = 5
+			Entfernung_D &= Entfernung_B + 5 = 3 + 3 = 6\\
+			Entfernung_E &= Entfernung_B + 5 = 3 + 5 = 8
 			\end{align*}
 			
-
+			\newpage
+			\subsubsection{3. Schritt}
+			\begin{figure}[ht]
+				\centering
+				\includegraphics[width=0.8\textwidth]{Graphs/Example3}
+				\caption{Objekte mit Fahrzeit und Entfernung zwischen zwei Städten}
+			\end{figure}
+			\begin{figure}[ht]
+				\centering
+				\includegraphics[width=0.45\textwidth]{Graphs/Example3_PQ}
+				\caption{Prioritätenliste nach Schritt 2}
+			\end{figure}
+			\FloatBarrier
+			Obwohl C die höchste Anfangsdistanz zum Startknoten aufweist, ist er in der Gesamtdistanz zu A nach dem 2. Schritt an die erste Stelle der Prioritätenliste gerutscht, da der Algorithmus mit den gegebenen Daten nicht wissen kann, dass der Graph sowohl zwischen C und F, als auch zwischen F und G sehr hohe Werte für die Gewichtung aufweist.
+			\begin{align*}
+			Entfernung_F &= Entfernung_C + 6 = 5 + 6 = 11
+			\end{align*}
+			
+			\newpage
+			\subsubsection{4. Schritt}
+			\begin{figure}[ht]
+				\centering
+				\includegraphics[width=0.8\textwidth]{Graphs/Example4}
+				\caption{Objekte mit Fahrzeit und Entfernung zwischen zwei Städten}
+			\end{figure}
+			\FloatBarrier
+			Für diesen letzten Schritt stand der Knoten E als erster in der Prioritätenliste. In diesem Fall hat E nur einen Nachbarknoten: den Zielknoten G.
+			An diesem Punkt bricht die Schleife ab, nachdem die Entfernung und der Vorgänger bei G gesetzt worden sind.
+			\begin{align*}
+			Entfernung_G &= Entfernung_E + 2 = 6 + 2 = 8
+			\end{align*}
+			Über genau diese Vorgängerbeziehung zwischen den Knoten kann man nun den kürzesten Weg rekonstruieren.
+			In diesem Beispiel wäre der kürzeste Pfad A $\rightarrow$ B $\rightarrow$ E $\rightarrow$ G.
+		
+			\begin{figure}[ht]
+				\centering
+				\includegraphics[width=0.8\textwidth]{Graphs/ExamplePathFull}
+				\caption{Kürzester Pfad}
+			\end{figure}
+			\FloatBarrier
+			
+			\newpage
+			Würde man den Pfad über die Beziehungen selbst darstellen, würde dies folgendermaßen aussehen.
+			
+			\begin{figure}[ht]
+				\centering
+				\includegraphics[width=0.2\textwidth]{Graphs/ExamplePath}
+				\caption{Kürzester Pfad über Vorgängerbeziehung}
+			\end{figure}
+			\FloatBarrier
+\newpage
 \section{A*}
+\subsection{Problemstellung}
+\begin{figure}[ht]
+	\centering
+	\includegraphics[width=1\textwidth]{Graphs/ExampleHighway}
+	\caption{Veranschaulichung einer Kreuzung mit zwei abgehenden Straßen}
+\end{figure}
+\FloatBarrier
+Die Kreuzung aus Abbildung 3.10 besitzt zwei abgehende Straßen.
+Die nach rechts führenden Streckenabschnitte besitzen alle eine Gewichtung von eins, da in diesem Szenario keine Behinderung für Verkehrsteilnehmer vorliegt. 
+Die nach links führenden Streckenabschnitte weisen in diesem Fall einen leichten Stau auf und besitzen deshalb einen Gewichtung von zwei (höherer Aufwand um die Strecke zu befahren).
+Der Startknoten ist A, der Zielknoten H.
+\\\\
+Wendet man nun Dijkstra auf diesen Graphen an, dann wird man schnell feststellen, dass der Algorithmus dem rechten Streckenabschnitt eher nachgehen wird, da dort jede Kante eine geringere Gewichtung aufweist, obwohl der Zielknoten in der genau entgegengesetzten Richtung liegt.
+Dieses Verhalten lässt sich dadurch erklären, dass Dijkstra nur die Entfernung zum Startknoten verwendet, um den Graphen zu durchsuchen, aber der Algorithmus dadurch kein Verständnis für Richtungen aufweist.
 
 \subsection{Funktionsweise}
+
+
 
 \chapter{Mögliche Verbesserungen}
 

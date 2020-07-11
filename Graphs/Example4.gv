@@ -1,0 +1,18 @@
+digraph {
+    rankdir="LR"
+    A[color=Indigo, penwidth=3]
+    B[color=Indigo, penwidth=3]
+    C[color=Indigo, penwidth=3]
+
+    A -> B [label="3"]
+    A -> C [label="5"]
+    C -> F [label = "6"]
+    F -> G [label="5"]
+    B -> D [label="5"]
+    B -> E [label = "3"]
+    D -> G [label = "4"]
+    E -> G [label = "2"]
+        
+    E[color=dodgerblue, penwidth=3]
+    G[color=darkorange, penwidth=3]
+}

@@ -1,0 +1,11 @@
+digraph {
+	node [shape=record];
+	structG [label="{<head>G|{8|<ref>E}}}"];
+	structE [label="{<head>E|{6|<ref>B}}}"];
+	structB [label="{<head>B|{3|<ref>A}}}"];
+	structA [label="{<head>A|{0|<ref>-}}"];
+
+	structG:ref -> structE:head;
+	structE:ref -> structB:head;
+	structB:ref -> structA:head;
+}

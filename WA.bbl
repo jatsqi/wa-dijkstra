@@ -1,0 +1,98 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.1 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated as
+% required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+\datalist[entry]{anyt/global//global/global}
+  \entry{wiki:german:astar}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=W}{%
+         family={Wikipedia},
+         familyi={W\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{W1}
+    \strng{fullhash}{W1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelalpha}{Wik20}
+    \field{extraalpha}{1}
+    \field{sortinit}{W}
+    \field{sortinithash}{W}
+  \field{howpublished}{\url{http://de.wikipedia.org/w/index.php?title=A*-Algorithmus&oldid=198870453}}
+    \field{note}{[Online; Aufgerufen am 11. Juli 2020]}
+    \field{title}{{A*-Algorithmus} --- {W}ikipedia{,} The Free Encyclopedia}
+    \field{year}{2020}
+  \endentry
+
+  \entry{wiki:german:dijkstra}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=W}{%
+         family={Wikipedia},
+         familyi={W\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{W1}
+    \strng{fullhash}{W1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelalpha}{Wik20}
+    \field{extraalpha}{2}
+    \field{sortinit}{W}
+    \field{sortinithash}{W}
+  \field{howpublished}{\url{http://de.wikipedia.org/w/index.php?title=Dijkstra-Algorithmus&oldid=200375007}}
+    \field{note}{[Online; Aufgerufen am 10. Juli 2020]}
+    \field{title}{{Dijkstra-Algorithmus} --- {W}ikipedia{,} The Free
+  Encyclopedia}
+    \field{year}{2020}
+  \endentry
+
+  \entry{wiki:german:graphs}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=W}{%
+         family={Wikipedia},
+         familyi={W\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{W1}
+    \strng{fullhash}{W1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelalpha}{Wik20}
+    \field{extraalpha}{3}
+    \field{sortinit}{W}
+    \field{sortinithash}{W}
+  \field{howpublished}{\url{http://de.wikipedia.org/w/index.php?title=Graphentheorie&oldid=200172892}}
+    \field{note}{[Online; Aufgerufen am 11. Juli 2020]}
+    \field{title}{{Graphentheorie} --- {W}ikipedia{,} The Free Encyclopedia}
+    \field{year}{2020}
+  \endentry
+
+  \entry{youtube:english:dijkstra}{online}{}
+    \field{labeltitlesource}{title}
+    \field{labelalpha}{You}
+    \field{sortinit}{Y}
+    \field{sortinithash}{Y}
+    \field{note}{[Online, Aufgerufen am 08. Juli 2020]}
+    \field{title}{Dijkstra's Algorithm - Computerphile}
+    \verb{url}
+    \verb https://www.youtube.com/watch?v=GazC3A4OQTE
+    \endverb
+    \warn{\item Invalid format of field 'date' \item Invalid format of field
+  'date'}
+  \endentry
+\enddatalist
+\endinput
